@@ -7,21 +7,20 @@
         <h2>CALCULATOR</h2>
         <form name="calculator" id="form">
             <table id="table">
-                <tr>
-                    <td colspan="4">
-                        <input type="text" name="display" id="text" value="" disabled>
-                        </td>
+                      <tr>
+                          <td colspan="4">
+                             <input type="text" name="display" id="text" value="" disabled>
+                           </td>
                         </tr>
                         <div class="class2">
                         <tr>
-
                             <td><input type="button" name="Clear" value="C" onclick="document.getElementById('text').value =''" id="first"></td>
                             <td><input type="button" name="brace" value="(" onclick="display.value +='('"></td>   
                             <td><input type="button" name="brace" value=")" onclick="display.value +=')'"></td>   
-                          <td colspan="2">  <input id="backspace" type="BUTTON" value=" X " name="backspace" onClick="document.calculator.text.value =
-                            document.calculator.text.value.substring(0,document.calculator.text.value.length*1 -1)">	 
-                                </td>
+                            <td colspan="2">  <input id="backspace" type="BUTTON" value=" X " name="backspace" onClick="document.calculator.text.value =
+                            document.calculator.text.value.substring(0,document.calculator.text.value.length*1 -1)"></td>
                         </tr>
+                            
                         <tr>
                             <td><input type="button" name="seven" value="7" onclick="display.value +='7'" id="first"></td>
                             <td><input type="button" name="eight" value="8" onclick="display.value +='8'"></td>
@@ -45,15 +44,12 @@
                         </tr>
 
                         <tr>
-
                             <td><input type="button" name="div" value="%" onclick="display.value +='/'" id="first"></td>
                             <td><input type="button" name="zero" value="0" onclick="display.value +='0'"></td>
                             <td><input type="button" name="dot" value="." onclick="display.value +='.'"></td>
                             <td><input id="equal" type="button" name="equal" value="=" onclick="display.value=eval(display.value)"></td>
-
                         </tr>
                         </div>
-
             </table>
         </form>
     </body>
