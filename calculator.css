@@ -8,18 +8,17 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-}
+    }
 
 h2{
     color: antiquewhite;
     margin-left:630px;
     margin-top: 150px;
-    
-}
+    }
 
 #form{
     margin-left: 550px;
-}
+    }
 
 #text{
     height: 40px;
@@ -30,8 +29,7 @@ h2{
     background-color: seashell;
     color:black;
     font-size: 18px;
-
-}
+    }
 
 input{
     height:45px;
@@ -40,16 +38,14 @@ input{
     background-color: rgba(0, 0, 0, 0.342);
     color:white;
     font-size: large;
-   
+    }
 
-}
 #first{
     margin-left: 20px;
-
-    
-}
+   
+    }
 
 #table{
     background-color: rgb(87, 86, 85);
     border-radius: 7px;
-}
+    }
